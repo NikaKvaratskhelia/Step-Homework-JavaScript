@@ -1,0 +1,17 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 200px;
+}
+
+img {
+    max-width: 100%;
+}
+
+section div {
+    background-color: aliceblue;
+    padding: 20px;
+}
